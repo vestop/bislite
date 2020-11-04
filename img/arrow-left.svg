@@ -1,0 +1,16 @@
+<svg id="arrow_left" data-name="arrow left" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #81e4ed;
+      }
+
+      .cls-2 {
+        fill: #434343;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-1" cx="10" cy="10" r="10"/>
+  <path class="cls-2" d="M1160.13,956l1.87-1.821-3.26-3.187v-0.007l3.24-3.168L1160.12,946l-5.11,4.994Z" transform="translate(-1149 -941)"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2aacc8;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle id="icon_bg" data-name="icon bg" class="cls-1" cx="20" cy="20" r="20"/>
+  <path id="fullscreen" class="cls-2" d="M485.624,707.991v-1.317h2.882v-2.719h1.486v4.036h-4.368Zm2.882-15.678h-2.882V691h4.368v4.036h-1.486v-2.719Zm-18.014,2.719h-1.486V691h4.368v1.317h-2.882v2.719Zm1.4-1.317H487.11v11.557H471.888V693.715Zm1.486,10.24h12.25v-8.923h-12.25v8.923Zm1.441-7.521h9.413v6.119h-9.413v-6.119Zm-4.323,10.24h2.882v1.317h-4.368v-4.036h1.486v2.719Z" transform="translate(-460 -680)"/>
+</svg>
