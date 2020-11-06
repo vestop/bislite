@@ -61,7 +61,9 @@ body {
   background-color: #fff;
   box-shadow: 0 -5px 0 0 #2aacc8;
 }
-
+.menu-item:hover .menu-link {
+  color: #2aacc8;
+}
 .services,
 .portfolio {
   position: relative;
@@ -122,11 +124,6 @@ body {
   visibility: visible;
   transition: opacity 1s, transform 0.5s;
   transform: translateY(0px);
-}
-
-.services:hover .menu-link,
-.portfolio:hover .menu-link {
-  color: #2aacc8;
 }
 
 .slider {
