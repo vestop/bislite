@@ -287,7 +287,9 @@ body {
   vertical-align: top;
   display: inline-block;
 }
-
+.work > img {
+  height: 100%;
+}
 .works-content:first-child {
   margin-right: 85px;
 }
@@ -378,4 +380,51 @@ body {
   width: 28px;
   height: 25px;
   background-image: url(img/download.svg);
+}
+
+/*footer*/
+
+.footer {
+  background-color: #e8ebf1;
+  padding-top: 30px;
+  padding-bottom: 48px;
+}
+
+.footer-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  padding-left: 1px;
+}
+.footer-about {
+  float: left;
+  width: 235px;
+
+  margin-right: 60px;
+}
+.footer-explorer {
+  width: 75px;
+  float: left;
+  margin-right: 70px;
+}
+.footer-browse {
+  width: 110px;
+  float: left;
+  margin-right: 65px;
+}
+.footer-contact {
+  width: 140px;
+  float: left;
+  margin-right: 50px;
+}
+
+.footer-socials {
+  float: left;
+  width: 190px;
+}
+
+.social-item {
+  display: inline-block;
 }
