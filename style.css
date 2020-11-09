@@ -226,6 +226,9 @@ body {
   width: 5px;
   height: 7px;
 }
+.about-link:hover {
+  text-decoration: underline;
+}
 
 .about-title::before {
   content: '';
@@ -288,7 +291,7 @@ body {
   display: inline-block;
 }
 .work > img {
-  height: 100%;
+  display: block;
 }
 .works-content:first-child {
   margin-right: 85px;
@@ -329,11 +332,6 @@ body {
   position: relative;
   transition: transform 0.2s, border-radius 0.3s;
 }
-.client:hover {
-  transform: scale(1.1);
-  border-radius: 20px;
-  z-index: 2;
-}
 
 .client-img {
   position: absolute;
@@ -348,11 +346,7 @@ body {
   padding: 35px 30px;
   margin-bottom: 40px;
 }
-.download-box::after {
-  content: '';
-  clear: both;
-  display: table;
-}
+
 .download-text {
   width: 65%;
   display: inline-block;
@@ -381,15 +375,23 @@ body {
   height: 25px;
   background-image: url(img/download.svg);
 }
-
+.download-btn:hover {
+  background-image: linear-gradient(to top, rgb(22, 147, 175) 0%, rgb(32, 159, 179) 15%, rgb(50, 184, 199) 50%, rgb(61, 186, 197) 100%);
+  color: #fff;
+  box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.2), inset 0px 2px 1px 0px rgba(182, 182, 182, 0.4);
+}
 /*footer*/
 
 .footer {
   background-color: #e8ebf1;
   padding-top: 30px;
   padding-bottom: 48px;
+  border-top: 1px solid #d9d9d9;
 }
-
+.footer-content {
+  margin-bottom: 40px;
+  font-size: 14px;
+}
 .footer-title {
   font-size: 15px;
   font-weight: 700;
@@ -404,15 +406,34 @@ body {
 
   margin-right: 60px;
 }
+.footer-about h4 {
+  margin-bottom: 26px;
+}
 .footer-explorer {
   width: 75px;
   float: left;
   margin-right: 70px;
 }
+.exp-item {
+  margin-bottom: 12px;
+}
+.exp-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .footer-browse {
   width: 110px;
   float: left;
   margin-right: 65px;
+}
+
+.browse-item {
+  margin-bottom: 12px;
+}
+.browse-link {
+  text-decoration: none;
+  color: inherit;
 }
 .footer-contact {
   width: 140px;
@@ -427,4 +448,25 @@ body {
 
 .social-item {
   display: inline-block;
+  margin-right: 11px;
+  margin-bottom: 5px;
+}
+.social-item:nth-child(3) {
+  margin-right: 0;
+}
+.social-item:nth-child(6) {
+  margin-right: 0;
+}
+.fix {
+  clear: both;
+  display: table;
+}
+
+.footer-copy-text {
+  font-size: 13px;
+  max-width: 700px;
+  float: left;
+}
+.footer-logo {
+  float: right;
 }
