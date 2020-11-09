@@ -163,6 +163,7 @@ body {
   display: inline-block;
   font-size: 0;
   outline: 0;
+  cursor: pointer;
 }
 .slick-dots li:not(:last-child) {
   margin-right: 12px;
@@ -245,6 +246,8 @@ body {
 .work {
   display: inline-block;
   width: calc((100% / 4) - 33.4px);
+  position: relative;
+  overflow: hidden;
 }
 .work:not(:last-child) {
   margin-right: 40px;
@@ -292,6 +295,22 @@ body {
   margin-bottom: 35px;
   font-size: 14px;
   letter-spacing: 1.5px;
+}
+.work-inner {
+  position: absolute;
+  bottom: -80px;
+  left: 0;
+  padding: 25px 64px;
+  right: 0;
+  height: 80px;
+  background-color: #2aacc8;
+  transition: bottom 0.3s;
+}
+.work-preview {
+  margin-right: 25px;
+}
+.work:hover .work-inner {
+  bottom: 0;
 }
 .author {
   font-size: 14px;
