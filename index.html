@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
@@ -81,19 +82,41 @@
   </header>
   <section class="slider">
     <div class="container">
-      <div class="slider-box">
-        <h2 class="slider-text">
-          We design clean, crisp & memorable icons
-        </h2>
+      <div class="slider-inner">
+        <div class="slider-box">
+          <h2 class="slider-text">
+            We design clean, crisp & memorable icons
+          </h2>
+        </div>
+        <div class="slider-box">
+          <h2 class="slider-text">
+            We design clean, crisp & memorable icons
+          </h2>
+        </div>
+        <div class="slider-box">
+          <h2 class="slider-text">
+            We design clean, crisp & memorable icons
+          </h2>
+        </div>
+        <div class="slider-box">
+          <h2 class="slider-text">
+            We design clean, crisp & memorable icons
+          </h2>
+        </div>
+        <div class="slider-box">
+          <h2 class="slider-text">
+            We design clean, crisp & memorable icons
+          </h2>
+        </div>
       </div>
 
-      <ul class="dots">
+      <!-- <ul class="dots slick-dots">
         <li class="dot"></li>
         <li class="dot"></li>
         <li class="dot active"></li>
         <li class="dot"></li>
         <li class="dot"></li>
-      </ul>
+      </ul> -->
 
     </div>
   </section>
@@ -141,6 +164,10 @@
       </ul>
     </div>
   </section>
+
+
+
+
 
   <section class="works">
     <div class="container">
@@ -195,6 +222,19 @@
       </div>
     </div>
   </section>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'>
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <script>
+    $(function () {
+      $('.slider-inner').slick({
+        arrows: false,
+        dots: true,
+        autoplay: true
+      });
+    });
+  </script>
 </body>
 
 </html>

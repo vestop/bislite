@@ -145,23 +145,31 @@ body {
   background-position: left;
   margin-bottom: 12px;
 }
-.dots {
+.slick-dots {
   text-align: center;
+  list-style: none;
 }
-.dot {
+.slick-dots li {
+  display: inline-block;
+}
+
+.slick-dots li button {
   width: 14px;
   height: 14px;
   background-color: #555;
   opacity: 0.5;
+  border: 0;
   border-radius: 50%;
   display: inline-block;
+  font-size: 0;
+  outline: 0;
 }
-.dot:not(:last-child) {
+.slick-dots li:not(:last-child) {
   margin-right: 12px;
 }
-.active {
-  background-color: #fff;
-  opacity: 1;
+.slick-active button {
+  background: #fff !important;
+  opacity: 1 !important;
 }
 
 .title {
