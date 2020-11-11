@@ -4,7 +4,7 @@
   padding: 0;
 }
 a {
-  display: none;
+  text-decoration: none;
   color: inherit;
 }
 img {
