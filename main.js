@@ -57,6 +57,7 @@ $('.works-box').slick({
       breakpoint: 900,
       settings: {
         slidesToShow: 3,
+        centerMode: true,
       },
     },
     {
@@ -69,7 +70,6 @@ $('.works-box').slick({
       breakpoint: 480,
       settings: {
         slidesToShow: 1,
-        centerMode: true,
       },
     },
   ],
