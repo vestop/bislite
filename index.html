@@ -3,7 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="slick.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="slick.css">
   <link rel="stylesheet" href="style.css">
   <title>BisLite</title>
 </head>
@@ -11,10 +12,18 @@
 <body>
   <header class="header">
     <div class="container">
+
+      <div class="menu-btn">
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+      </div>
+
       <div class="logo-box">
         <img src="img/logo.png" alt="BisLite" class="logo">
       </div>
       <ul class="menu-list">
+        <button class="menu-close">X</button>
         <li class="menu-item">
           <a href="#" class="menu-link">Home</a>
         </li>
@@ -46,7 +55,7 @@
         </li>
         <li class="menu-item portfolio">
           <a href="#" class="menu-link">Portfolio</a>
-          <div class="dropdown">
+          <div class="dropdown dropdown2">
             <ul class="dropdown-list">
               <li class="dropdown-item">
                 <a href="#" class="dropdown-link">Item 1</a>
@@ -76,8 +85,11 @@
           <a href="#" class="menu-link">Contact Us</a>
         </li>
       </ul>
+      <div class="fix"></div>
     </div>
   </header>
+
+
   <section class="slider">
     <div class="container">
       <div class="slider-inner">
@@ -88,34 +100,25 @@
         </div>
         <div class="slider-box">
           <h2 class="slider-text">
-            We design clean, crisp & memorable icons
+            SKILLMAX
           </h2>
         </div>
         <div class="slider-box">
           <h2 class="slider-text">
-            We design clean, crisp & memorable icons
+            SANJAR
           </h2>
         </div>
         <div class="slider-box">
           <h2 class="slider-text">
-            We design clean, crisp & memorable icons
+            JASUR
           </h2>
         </div>
         <div class="slider-box">
           <h2 class="slider-text">
-            We design clean, crisp & memorable icons
+            FAREZ
           </h2>
         </div>
       </div>
-
-      <!-- <ul class="dots slick-dots">
-        <li class="dot"></li>
-        <li class="dot"></li>
-        <li class="dot active"></li>
-        <li class="dot"></li>
-        <li class="dot"></li>
-      </ul> -->
-
     </div>
   </section>
   <section class="about">
@@ -132,7 +135,7 @@
         </li>
 
         <li class="about-item">
-          <h4 class="about-title title">
+          <h4 class="about-title title about-title-2">
             Responsive Design
           </h4>
           <p class="about-text">
@@ -141,7 +144,7 @@
           <a href="#" class="about-link">Read More</a>
         </li>
         <li class="about-item">
-          <h4 class="about-title title">
+          <h4 class="about-title title about-title-3">
             Ready for coding
           </h4>
           <p class="about-text">
@@ -150,7 +153,7 @@
           <a href="#" class="about-link">Read More</a>
         </li>
         <li class="about-item">
-          <h4 class="about-title title">
+          <h4 class="about-title title about-title-4">
             Fully layerd PSD
           </h4>
           <p class="about-text">
@@ -163,6 +166,8 @@
     </div>
   </section>
 
+
+
   <section class="works">
     <div class="container">
       <h2 class="works-title title">
@@ -170,6 +175,7 @@
       </h2>
       <ul class="works-box">
         <li class="work">
+
           <img src="img/work-1.jpg" alt="Work1">
           <div class="work-inner">
             <a class="work-preview" href="#">
@@ -179,8 +185,10 @@
               <img src="img/share.svg" alt="">
             </a>
           </div>
+
         </li>
         <li class="work">
+
           <img src="img/work-2.jpg" alt="Work2">
           <div class="work-inner">
             <a class="work-preview" href="#">
@@ -190,8 +198,10 @@
               <img src="img/share.svg" alt="">
             </a>
           </div>
+
         </li>
         <li class="work">
+
           <img src="img/work-3.jpg" alt="Work3">
           <div class="work-inner">
             <a class="work-preview" href="#">
@@ -201,8 +211,10 @@
               <img src="img/share.svg" alt="">
             </a>
           </div>
+
         </li>
         <li class="work">
+
           <img src="img/work-4.jpg" alt="Work4">
           <div class="work-inner">
             <a class="work-preview" href="#">
@@ -211,9 +223,25 @@
             <a class="work-share" href="#">
               <img src="img/share.svg" alt="">
             </a>
+
           </div>
         </li>
+        <li class="work">
+
+          <img src="img/work-1.jpg" alt="Work1">
+          <div class="work-inner">
+            <a class="work-preview" href="#">
+              <img src="img/preview.svg" alt="">
+            </a>
+            <a class="work-share" href="#">
+              <img src="img/share.svg" alt="">
+            </a>
+          </div>
+
+        </li>
       </ul>
+
+
       <div class="works-bottom">
         <div class="works-content">
           <h2 class="works-title title works-title-2">
@@ -248,6 +276,8 @@
         <div class="fix"></div>
       </div>
     </div>
+
+
   </section>
   <footer class="footer">
     <div class="container">
@@ -363,23 +393,14 @@
         <a href="#" class="footer-logo">
           <img src="img/logo.png" alt="">
         </a>
+        <div class="fix"></div>
       </div>
     </div>
   </footer>
 
-
-  <script src='jquery.min.js'></script>
+  <script src="jquery.min.js"></script>
   <script src="slick.min.js"></script>
-
-  <script>
-    $(function () {
-      $('.slider-inner').slick({
-        arrows: false,
-        dots: true,
-        autoplay: true,
-      });
-    });
-  </script>
+  <script src="main.js"></script>
 </body>
 
 </html>
