@@ -546,6 +546,27 @@ body {
 
   position: relative;
 }
+.menu-close {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  outline: 0;
+}
+.close-line {
+  width: 30px;
+  height: 3px;
+  display: inline-block;
+  background-color: #000;
+  top: 20px;
+  left: 5px;
+  position: absolute;
+}
+.close-line:first-child {
+  transform: rotate(45deg);
+}
+.close-line:last-child {
+  transform: rotate(-45deg);
+}
 
 .menu-line {
   width: 35px;

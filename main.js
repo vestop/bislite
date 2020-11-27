@@ -14,6 +14,9 @@ var prC = document.querySelector('.dropdown2');
 MenuBtn.addEventListener('click', function () {
   MenuList.classList.add('active');
 });
+MenuClose.addEventListener('click', function () {
+  MenuList.classList.remove('active');
+});
 
 dr.addEventListener('click', function () {
   dr.classList.toggle('active');
