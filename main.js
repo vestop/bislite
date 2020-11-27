@@ -7,9 +7,9 @@ var pr = document.querySelector('.portfolio');
 var drC = document.querySelector('.dropdown');
 var prC = document.querySelector('.dropdown2');
 
-MenuClose.addEventListener('click', function () {
-  MenuList.classList.remove('active');
-});
+// $('.menu-btn').click(function () {
+//   $('.menu-list').slideToggle();
+// });
 
 MenuBtn.addEventListener('click', function () {
   MenuList.classList.add('active');
