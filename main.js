@@ -42,12 +42,15 @@ $('.slider-inner').slick({
   dots: true,
   autoplay: true,
   autoplaySpeed: 2000,
+  accessibility: false,
 });
 
 $('.works-box').slick({
   slidesToShow: 4,
   arrows: true,
   autoplay: true,
+  autoplaySpeed: 500,
+  accessibility: false,
   autoplaySpeed: 1600,
   nextArrow: '<button type="button" class="slick-next work-right"><img src="img/arrow-right.svg" alt=""></button>',
   prevArrow: '<button type="button" class="slick-prev work-left"><img src="img/arrow-left.svg" alt=""></button>',

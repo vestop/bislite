@@ -272,29 +272,30 @@ body {
   border-bottom: 1px solid #dfe1e5;
   position: relative;
 }
-.work-right,
-.work-left {
-  position: absolute;
-  top: -42px;
-  right: 5px;
-  cursor: pointer;
-  background: transparent;
+.work-left,
+.work-right {
   border: 0;
-  outline: 0;
+  background: transparent;
+  cursor: pointer;
+  position: absolute;
+  top: -30px;
+  right: 10px;
 }
 
 .work-left {
-  right: 35px;
+  right: 40px;
 }
 .work {
   display: inline-block;
   width: calc((100% / 4) - 33.4px);
   position: relative;
   overflow: hidden;
+  margin: 0 20px;
 }
-.work:not(:last-child) {
+/* .work:not(:last-child) {
   margin-right: 40px;
-}
+} */
+
 .works-title {
   padding: 25px 0 18px 40px;
   position: relative;
